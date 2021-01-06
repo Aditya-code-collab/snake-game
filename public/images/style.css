@@ -1,0 +1,22 @@
+#canvas{
+    border: solid 2px rgb(115, 255, 0);  
+    width: 100%;
+    height: 80%;
+}
+body{
+    
+    overscroll-behavior: contain;
+    background-color: rgba(0, 20, 0, 0.911);
+  justify-content: center;
+        
+}
+#head{
+    text-align: center;
+    color: wheat;
+    
+    padding: 4px;
+}
+#trophy{
+    width: 25px;
+    height: 25px;
+}
