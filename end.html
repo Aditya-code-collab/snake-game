@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>snake game</title>
+  <link rel="stylesheet" href="images/style.css">
+  <meta name="viewport" content=" initial-scale=1.0, user-scalable=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div id="head" style="font-size:x-large;padding: 60px;align-items: center;">
+    <h1>Game Over !</h1>
+    <a><img id="trophy" src="images/score-trophy.png" alt="11111"> Your score is : <a id="myscore">0</a> </a>
+    </br>
+    <button id="btn" style="align-items:center;margin-top: 50px;font-size: x-large;">Play Again</button>
+
+  </div>
+
+
+  <script>
+
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+     location.replace("index.html");
+    }
+    var para = new URLSearchParams(window.location.search);
+    var pass = para.get("KEY");
+    console.log(pass);
+    document.getElementById("myscore").innerHTML = pass;
+   
+    
+     
+      
+  </script>
+
+
+
+</body>
+
+</html>
